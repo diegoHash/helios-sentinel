@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition(
         info = @Info(
-                title = "CAC API",
-                description = "Control de Acceso API Documentation",
+                title = "HELIOS Sentinel API",
+                description = "API de HELIOS Platform para control de acceso y monitoreo Sentinel",
                 version = "1.0",
-                contact = @Contact(name = "CAC Admin")
+                contact = @Contact(name = "HELIOS Platform")
         ),
         security = {
                 @SecurityRequirement(name = "bearerAuth")
